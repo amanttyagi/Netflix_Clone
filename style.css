@@ -168,10 +168,10 @@ body{
     top: 30px;
 }
 .third .sec-img video{
-    position: absolute;
-    width: 359px;
+   position: absolute;
+    width: 124px;
     top: 2rem;
-    left: 6rem;
+    left: 3rem;
 }
 .freq{
     text-align: center;
