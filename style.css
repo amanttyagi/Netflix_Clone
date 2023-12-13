@@ -288,10 +288,10 @@ footer{
     }
     .first {
         display: flex;
-        align-items: self-start;
-        text-align: center;
+        align-items: center;
+        justify-content: center;
         flex-direction: column;
-        height: 58vh;
+        height: 58vh;    
     }
     .first div>:nth-child(1) {
         padding: 16px 16px;
@@ -326,9 +326,9 @@ footer{
     }
     .third .first div>:nth-child(2),.sec-img video{
         position: absolute;
-        width: 150px;
-        top: 33px;
-        left: 60px;
+        width: 169px;
+        top: 51px;
+        left: 51px;
     }
     .fourth{
        display: flex;
