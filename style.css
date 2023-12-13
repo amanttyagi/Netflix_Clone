@@ -171,7 +171,7 @@ body{
    position: absolute;
     width: 124px;
     top: 2rem;
-    left: 3rem;
+    left: 3.3rem;
 }
 .freq{
     text-align: center;
@@ -343,7 +343,7 @@ footer{
     }
     .freq {
         text-align: center;
-        height: 129vh;
+        height: 125vh;
     }
     .plac input{
         width: 11rem;
