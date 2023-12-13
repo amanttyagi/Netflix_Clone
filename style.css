@@ -167,6 +167,12 @@ body{
     width: 350px; 
     top: 30px;
 }
+.third .sec-img video{
+    position: absolute;
+    width: 359px;
+    top: 2rem;
+    left: 6rem;
+}
 .freq{
     text-align: center;
     height: 100vh;
