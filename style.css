@@ -156,9 +156,16 @@ body{
 }
 .sec-img video{
     position: absolute;
-    width: 455px;
-    top: 5rem;
-    left: 5rem;
+    width: 345px;
+    top: 2rem;
+    left: 7rem
+}
+.third .sec-img image{
+    right: 1rem;
+}
+.third .sec-img image{
+    width: 350px; 
+    top: 30px;
 }
 .freq{
     text-align: center;
@@ -228,4 +235,138 @@ footer{
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+.plac{
+    margin:0 30rem;
+}
+.plac input{
+    width: 20rem;
+}
+.plac button{
+    width: 20rem;
+}
+@media screen and (max-width: 1300px){
+    .content>:nth-child(1){
+        font-size: 1.4rem;
+    }
+    .nav{
+        max-width: 86vw;
+        height: 92px;
+    }
+    .bt , .bt-r{
+        padding: 0px 5px;
+        margin-right: -12px;
+    font-size: 0.5rem;
+    }
+    .nav img{
+        width: 71px;
+    }
+    .content>:nth-child(2), .content>:nth-child(3){
+        font-size: 0.7rem;
+    }
+    .plac {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .plac input{
+        width: 118px;
+    }
+    .plac button{
+        width: 121px;
+        font-size: 0.9rem;
+    }
+    .separation{
+        margin-top: -26px;
+    }
+    .first {
+        display: flex;
+        align-items: self-start;
+        text-align: center;
+        flex-direction: column;
+        height: 58vh;
+    }
+    .first div>:nth-child(1) {
+        padding: 16px 16px;
+        font-size: 24px;
+    }
+    .first div>:nth-child(2) {
+        font-size: 12px;
+        color: white;
+    }
+    .sec-img img {
+        width: 234px;
+        position: relative;
+        z-index: 10;
+    }
+    .sec-img video{
+        position: absolute;
+        width: 189px;
+        top: 2.7rem;
+        left: 2.6rem;
+    }
+    .second {
+        height: 59vh;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .second .sec-img img{
+        top: 2rem;
+        height: 10rem;
+    }
+    .second .sec-img{
+        top: -42px;
+    }
+    .third .first div>:nth-child(2),.sec-img video{
+        position: absolute;
+        width: 150px;
+        top: 33px;
+        left: 60px;
+    }
+    .fourth{
+       display: flex;
+       flex-direction: column-reverse;
+    }
+    .freq h1 {
+        font-size: 21px;
+        padding: 20px;
+    }
+    .box1{
+        font-size: 0.7rem;
+    }
+    .freq {
+        text-align: center;
+        height: 129vh;
+    }
+    .plac input{
+        width: 11rem;
+    }
+    .plac button{
+        width: 9rem;
+    }
+    .plac{
+        margin: 0px 0rem;
+    }
+    /* .footer .ftr{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    } */
+    .grid ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        /* align-items: center; */
+        /* margin: auto; */
+        column-gap: 47px;
+    }
+    footer {
+        margin: auto;
+        color: rgba(151, 136, 136, 0.7);
+        max-width: 87vw;
+        padding: 23px;
+        font-size: 0.8rem;
+    }
+
 }
