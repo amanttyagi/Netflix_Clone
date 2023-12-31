@@ -7,6 +7,7 @@ font-family: 'Poppins', sans-serif; */
     color: white;
     font-family: 'Poppins', sans-serif; 
     scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 body{
     background-color: black;
@@ -168,11 +169,12 @@ body{
     top: 30px;
 }
 .third .sec-img video{
-   position: absolute;
-    width: 124px;
+    position: absolute;
+    width: 22rem;
+    left: 6rem;
     top: 2rem;
-    left: 3.3rem;
 }
+
 .freq{
     text-align: center;
     height: 100vh;
@@ -324,12 +326,6 @@ footer{
     .second .sec-img{
         top: -42px;
     }
-    .third .first div>:nth-child(2),.sec-img video{
-        position: absolute;
-        width: 169px;
-        top: 51px;
-        left: 51px;
-    }
     .fourth{
        display: flex;
        flex-direction: column-reverse;
@@ -343,7 +339,7 @@ footer{
     }
     .freq {
         text-align: center;
-        height: 125vh;
+        height: 129vh;
     }
     .plac input{
         width: 11rem;
@@ -374,5 +370,10 @@ footer{
         padding: 23px;
         font-size: 0.8rem;
     }
-
+    .third .sec-img video {
+        position: absolute;
+        width: 8rem;
+        left: 3rem;
+        top: 2rem;
+    }
 }
